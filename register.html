@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>BVM Alumini Member Registration</title>
+<link rel="stylesheet" type="text/css" href="s/regstyle.css">
+</head>
+<body>
+<h1>Register Now!</h1>
+<form class="register_form"  action="registration_status.php" method="POST">
+<input type="text" placeholder="Full Name" name="pi_name" required>
+<select id="select" name="pi_gender" required>
+<option>Gender</option>
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+</select>
+<input type="text" placeholder="Registration Number" name="pi_register" required>
+<select id="select" name="pi_branch" required>
+<option>Branch</option>
+<option>BA</option>
+<option>Bcom F&T</option>
+<option>Bsc Maths</option>
+<option>Bcom CA</option>
+<option>BSW</option>
+<option>BCA</option>
+</select>
+<select id="select" name="pi_session" required>
+<option>Session</option>
+<option>2011-2014</option>
+<option>2012-2015</option>
+<option>2013-2016</option>
+<option>2014-2017</option>
+<option>2015-2018</option>
+<option>2016-2019</option>
+<option>2017-2020</option>
+<option>2018-2021</option>
+<option>2019-2022</option>
+<option>2020-2023</option>
+<option>2021-2024</option>
+</select>
+<input type="email" placeholder="Email" name="pi_email" required>
+<input type="text" placeholder="Mobile Number" name="pi_mobile" id="mobile" maxlength="10" pattern="[0-9]{10}" required>
+<input type="password" placeholder="Password" name="pi_password" required>
+<button type="submit" name="register" formaction="registration_status.php">Register</button>
+<br><br><a href="index.php">Register Later></a>
+</form>
+</div>
+</body>
+</html>
